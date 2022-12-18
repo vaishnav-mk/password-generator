@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(180deg, #14131B 0%, #08070B 100%);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: #e6e5ea;
+  cursor: ew-resize;
+  transition: all .2s ease-in-out;
+  outline: 2px solid transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #18171f;
+  outline-color: #a4ffaf;
+}
+
+input[type=range]::-webkit-slider-runnable-track  {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
