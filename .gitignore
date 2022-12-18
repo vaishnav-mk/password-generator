@@ -1,6 +1,7 @@
 
 dist
 .solid
+.output
 .vercel
 .netlify
 netlify
